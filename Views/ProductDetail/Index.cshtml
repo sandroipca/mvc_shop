@@ -1,0 +1,19 @@
+<div id="mainBody">
+		<div class="container">
+			<div class="row">
+				@Html.Partial("sideBar")
+				<div class="span9">
+					<ul class="breadcrumb">
+						<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+						<li><a href="products.html">Products</a> <span class="divider">/</span></li>
+						<li class="active">product Details</li>
+					</ul>
+					<div class="row">
+						@Html.Partial("Gallery")
+						@Html.Partial("PanelBuy")
+						@Html.Partial("ProductInformation")
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
